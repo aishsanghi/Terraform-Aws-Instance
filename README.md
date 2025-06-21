@@ -18,8 +18,33 @@ This is a simple DevOps project to practice **Terraform** with **AWS** by creati
 - AWS account with IAM user access
 - Terraform installed
 - AWS CLI configured with credentials (`aws configure`)
-
+- 
 ---
+
+### Initialize Terraform
+```sh
+terraform init
+```
+- Downloads provider plugins
+- Sets up the working directory
+
+## Terraform Core Commands
+### Format & Validate Code
+```sh
+terraform fmt       # Formats Terraform code
+terraform validate  # Validates Terraform syntax
+```
+
+### Plan & Apply Infrastructure
+```sh
+terraform plan      # Shows execution plan without applying
+terraform apply     # Creates/updates infrastructure
+```
+
+### Destroy Infrastructure
+```sh
+terraform destroy  # Destroys all managed resources
+```
 
 
 
